@@ -320,7 +320,7 @@ Planned features:
 Clone repository:
 
 ```bash
-git clone <your_repo_url>
+git clone https://github.com/Arnab-Pachal1234/VoiceAgentAI.git
 ```
 
 Install dependencies:

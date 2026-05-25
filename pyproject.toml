@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VoiceAgentArnab"
+version = "0.0.1"
+description = "Realtime AI Voice Assistant with STM memory"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+  { name = "Arnab" }
+]
+
+dependencies = [
+  "openai",
+  "python-dotenv",
+  "SpeechRecognition",
+  "PyAudio"
+]
+
+[project.scripts]
+voiceagentarnab = "voiceagentarnab.main:start"
+
+[tool.setuptools.packages.find]
+where = ["."]
